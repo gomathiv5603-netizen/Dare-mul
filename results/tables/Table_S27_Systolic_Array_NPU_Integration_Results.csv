@@ -1,0 +1,7 @@
+Metric,Exact MAC Array,DARE-Mul Array,Overhead / Gain
+Array area (LUTs),"12,480","14,320",+14.7%
+Peak power at operating clock (mW; freq-scaled),312,233.2†,-25.3%
+Effective TOPS/W (frequency-scaled estimate),1.92,2.31†,+20.3%
+Memory bandwidth demand (GB/s),4.8,4.9,+2.1%
+Control-fan-out extra delay (ns),—,0.35,—
+Measurement frequency / critical path,200 MHz / 5.00 ns,174 MHz / 5.75 ns,Different achieved clocks

@@ -1,0 +1,7 @@
+Metric,DARE-Mul Mean ± Std (5 seeds),95% CI of the Mean,Improvement over Static Approximation (Table S6)
+Power (mW),72.79 ± 0.07,72.70 - 72.88,—
+Propagation Delay (ns),5.75 ± 0.016,5.73 - 5.77,—
+PDP (pJ),418.6 ± 0.8,417.6 - 419.5,21.8% lower
+MED,1.74 ± 0.016,1.72 - 1.76,29.4% lower
+Task Accuracy (%),99.24 ± 0.011,99.22 - 99.25,+2.44 pp (91.24 → 93.68)*
+Boundary Oscillation Ω,0.19,— (single value),79.3% lower (0.92 → 0.19)

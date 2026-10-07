@@ -1,0 +1,4 @@
+Controller,PDP (pJ; freq-norm),MED,NMED,Ω,LUT
+Deterministic DREU (DARE-Mul),Not retained,1.74,0.0068,0.19,1638
+Online-learning controller,Not retained,1.69,0.0066,0.15,2100
+Threshold baseline,Not retained,1.95,0.0076,0.71,1500

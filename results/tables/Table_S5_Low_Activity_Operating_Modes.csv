@@ -1,0 +1,5 @@
+Configuration,Power (mW),Delay (ns),PDP = Energy/op (pJ),MED,NMED,Task Accuracy (%),LUT,FF
+Exact multiplier,74.03,5.95,440.5,0.00,0.0000,99.35,1210,890
+DARE-Mul normal,72.88,5.69,414.7,1.68,0.0065,99.27,1638,1328
+DARE-Mul bypass,69.57,5.62,391.0,1.70,0.0066,99.26,1638,1328
+DARE-Mul clock-gated,68.57,5.60,384.0,1.72,0.0067,99.25,1638,1328

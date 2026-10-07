@@ -1,0 +1,12 @@
+Architecture,LUTs,FFs,DSP Slices,BRAM,Area Overhead (%)
+Kim et al. [21],1284,942,6,2,0.0
+Pan et al. [22],1217,901,5,2,-5.2
+Guo et al. [23],1338,1015,6,2,4.2
+Rizos et al. [24],1394,1087,6,3,8.6
+Huang et al. [25],1451,1129,7,3,13.0
+Vo and Nguyen-Ly [26],1493,1182,7,3,16.3
+Jeong et al. [27],1527,1216,7,3,18.9
+Fairoose and Mishra [28],1412,1103,6,2,10.0
+Rathod et al. [29],1478,1171,7,3,15.1
+Lim et al. [30],1549,1244,7,3,20.6
+Proposed DARE-Mul,1638,1328,8,3,27.6

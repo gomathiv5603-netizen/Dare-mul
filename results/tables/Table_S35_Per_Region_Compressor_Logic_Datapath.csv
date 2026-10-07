@@ -1,0 +1,4 @@
+Region (condition),Partial-Product Generation,4:2 Compression,Accumulation
+Exact (Sij ≥ BE),"Full AND/Booth generation, no truncation","Exact: Sum = A ⊕ B ⊕ C ⊕ D ⊕ Cin; Cout1 = maj(A,B,C); Cout2 = maj(A ⊕ B ⊕ C, D, Cin)","Exact adder, full carry propagation"
+Intermediate (BA < Sij < BE),Adaptive; only least-significant columns truncated,"Mixed: exact 4:2 on higher columns and approx 4:2 on lower columns, with carry correction",Hybrid adder; exact carry on high bits only
+Approximate (Sij ≤ BA),Truncated generation with approximate encoding,"Approximate: Sum = A ⊕ B ⊕ C; Cout = maj(A,B,C); inputs D and Cin unused",Approximate adder with reduced (truncated) carry chain

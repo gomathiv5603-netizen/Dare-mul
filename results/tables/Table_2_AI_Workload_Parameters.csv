@@ -1,0 +1,23 @@
+Parameter,Configuration
+Primary AI Workload,Convolutional Neural Network (CNN) Inference
+Additional Workload,"Reduced ViT-B/16 matrix-operation workload (QKᵀ, Attention×V, MLP)"
+Evaluation Datasets,"MNIST, CIFAR-10 (CNN); ImageNet-1K subset (transformer)"
+Additional CNN Models,"ResNet-18, MobileNetV2"
+Workload Analysis,Layer-wise activation significance evaluation
+Operand Trace Source,CNN activation distributions
+Arithmetic Precision,16-bit Fixed-Point
+Target Operations,Multiply–Accumulate (MAC) Operations
+Operand Behavior,Dynamically Varying
+Workload Characteristics,Temporal and Significance-Aware
+Arithmetic Sensitivity,Adaptive
+Activation Distribution,Layer-Dependent
+Switching Activity Profile,Dynamic
+Evaluation Objective,Energy–Accuracy Optimization
+Inference Analysis,Classification Reliability Evaluation
+Adaptation,Dynamic Precision Evolution
+Comparison Strategy,Identical Workload Conditions Across Architectures
+Transformer Matrix Shape (M×N×K),QKᵀ: 196×64×196 per head; Attention×V: 196×196×64 per head; MLP: 196×768×3072 and 196×3072×768
+Tokens / Hidden Dim. / Heads / Layers,196 / 768 / 12 / 12
+Q/K/V Projection Dimension,64
+Transformer Operand Distribution,"Gaussian, μ = 0, σ = 0.5"
+Transformer Samples / Batch Size,"1,000 / 1"

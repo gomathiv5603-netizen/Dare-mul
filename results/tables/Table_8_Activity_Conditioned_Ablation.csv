@@ -1,0 +1,9 @@
+Variant,MED Low,MED Mod,MED High,MED Dyn,Task Acc Low (%),Task Acc Mod (%),Task Acc High (%),Task Acc Dyn (%),Ω Low,Ω High,PDP (pJ; freq-norm)
+Full DARE-Mul,1.20,1.45,1.62,1.74,99.35,99.15,98.90,98.77,0.12,0.19,Not retained
+−DREU,1.85,2.10,2.35,2.55,99.10,98.80,98.45,98.20,0.35,0.52,Not retained
+−History,1.75,2.00,2.20,2.40,99.15,98.85,98.55,98.30,0.30,0.45,Not retained
+−Significance,1.90,2.15,2.40,2.60,99.05,98.75,98.40,98.15,0.38,0.55,Not retained
+−Switching activity,1.80,2.05,2.28,2.48,99.08,98.78,98.48,98.25,0.33,0.50,Not retained
+−Hybrid accumulation,1.65,1.90,2.10,2.30,99.18,98.90,98.60,98.35,0.28,0.42,Not retained
+−Adaptive PPG,1.70,1.95,2.15,2.35,99.12,98.85,98.52,98.28,0.29,0.44,Not retained
+−Adaptive reduction,1.72,1.98,2.18,2.38,99.10,98.83,98.50,98.26,0.30,0.45,Not retained

@@ -1,0 +1,29 @@
+Parameter,Configuration
+Hardware Description Language,Verilog HDL
+FPGA Platform,Xilinx Artix-7
+FPGA Device,XC7A100T-CSG324
+Design Tool,Xilinx Vivado 2023.1
+Process Technology,28 nm CMOS
+Multiplier Precision,16-bit
+Timing Target,200 MHz (5.00 ns period); not met by any design
+Delay used in PDP,Post-route critical path: 5.75 ns for DARE-Mul (174 MHz achieved)
+Arithmetic Architecture,Adaptive Approximate Multiplier
+Adaptation,Dynamic Precision Evolution
+Reduction Structure,Adaptive Reduction Tree
+Accumulation Strategy,Hybrid Exact–Approximate Accumulation
+Timing Optimization,Enabled
+Synthesis Mode,Timing-Driven
+Power Analysis,Vector-based Post-Implementation
+Execution Model,Synchronous RTL
+Target Application Domain,AI Inference and Edge Acceleration
+Power-Analysis Vectors,"10,000 vectors; Gaussian (μ=0, σ=0.5); toggle rate: 0.18"
+Core Voltage / Junction Temp,0.95 V / 25°C
+Placement Seeds,5 per architecture
+Pipeline Depth,4 stages (all designs)
+Synthesis Strategy / Directive,Timing-driven / Performance_Explore
+Placement Strategy,SpreadLogic_high
+Routing Strategy,AggressiveExplore
+Timing Extraction,Post-route static timing analysis
+Power Estimation,Vivado Power Analyzer (vector-based)
+Baseline Implementation,Re-implemented in Verilog under identical settings
+Power Scaling Statement,Power estimates generated at 200 MHz scaled by 5.00 ns / critical-path delay

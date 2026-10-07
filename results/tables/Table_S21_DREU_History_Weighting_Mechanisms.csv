@@ -1,0 +1,5 @@
+History Mechanism,Oscillation ΩB,Settling Time (cycles),Steady-State Std,Δ ΩB vs. No History
+No history,0.00601,2430.0,0.755,—
+Simple moving average (K=16),0.00439,2440.4,0.780,-27.0%
+Weighted moving average (K=16),0.00440,2439.4,0.774,-26.9%
+"Exponential smoothing (DARE-Mul, α=0.6)",0.00445,2434.2,0.765,-26.0%

@@ -1,0 +1,21 @@
+Metric,Exact Multiplier,DARE-Mul (SKY130 combinational variant)
+Technology,SkyWater SKY130,SkyWater SKY130
+Standard-cell library,sky130_fd_sc_hd,sky130_fd_sc_hd
+Core area (µm²),2000,2000
+Synthesized cell area (µm²),1350,1120
+Standard-cell count,1245,1038
+Operand width (bits),8-bit,8-bit
+DREU included,—,Yes
+Datapath cells / area (µm²),1245 / 1350,900 / 980
+DREU cells / area (µm²),—,138 / 140
+Utilization,67.5%,56.0%
+Wire length (mm),4.2,3.6
+Critical path delay (ns),1.48,1.24
+Maximum frequency (MHz),675,806
+Dynamic power (mW),1.78,1.38
+Leakage power (mW),0.17,0.13
+Total power (mW),1.95,1.51
+PDP (pJ),2.89,1.87
+DRC violations,0,0
+LVS,PASS,PASS
+Post-route timing,PASS,PASS

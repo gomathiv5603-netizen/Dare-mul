@@ -1,0 +1,9 @@
+Network,Compensation Strategy,Final Top-1 Acc. (%),Accumulated NMED,Accuracy Recovery (%)
+ResNet-50,None / raw DARE-Mul,75.94,0.0075,—
+ResNet-50,Static layer-wise budget,76.00,0.0070,75.0
+ResNet-50,Dynamic residual correction,76.02,0.0068,100.0
+ResNet-50,Exact INT8 multiplier (upper bound),76.02,0.0000,—
+ViT-B/16,None / raw DARE-Mul,80.62,0.0085,—
+ViT-B/16,Static layer-wise budget,80.75,0.0080,56.5
+ViT-B/16,Dynamic residual correction,80.85,0.0075,100.0
+ViT-B/16,Exact INT8 multiplier (upper bound),80.85,0.0000,—

@@ -1,0 +1,12 @@
+Architecture,Energy Consumption (pJ),Task Accuracy (%),Energy Relative to DARE-Mul (%)
+Kim et al. [21],431.00,98.74,+2.97%
+Pan et al. [22],427.50,98.81,+2.14%
+Guo et al. [23],424.00,98.93,+1.30%
+Rizos et al. [24],425.50,98.88,+1.66%
+Huang et al. [25],421.00,99.02,+0.59%
+Vo et al. [26],422.50,98.97,+0.94%
+Jeong et al. [27],419.50,99.08,+0.23%
+Fairoose et al. [28],418.00,99.11,-0.13%
+Rathod et al. [29],420.00,99.05,+0.35%
+Lim et al. [30],417.00,99.14,-0.37%
+DARE-Mul,418.55,99.24,—

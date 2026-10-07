@@ -1,0 +1,30 @@
+# Vivado temporary and generated files
+.Xil/
+*.jou
+*.log
+*.pb
+*.wdb
+*.wcfg
+xsim.dir/
+xelab.pb
+xvlog.pb
+
+# Vivado project caches
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# Temporary manuscript files
+.tmp_manuscript*
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vivado simulation directory
+*.sim/

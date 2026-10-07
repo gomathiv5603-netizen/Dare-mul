@@ -1,0 +1,615 @@
+{
+  "paper_claims": {
+    "power_reduction_pct": 22.0,
+    "delay_reduction_pct": 1.9,
+    "pdp_improvement_pct": 21.8,
+    "med_reduction_pct": 29.4,
+    "max_inference_accuracy_drop_pct": 0.585,
+    "nmed_reduction_vs_baselines_pct": 50.0,
+    "boundary_oscillation_reduction_pct": 79.3
+  },
+  "summary_metrics": [
+    {
+      "metric": "Power Consumption (mW)",
+      "mean": 72.79,
+      "std_dev": 0.07,
+      "confidence_interval": "72.70-72.88"
+    },
+    {
+      "metric": "Propagation Delay (ns)",
+      "mean": 5.75,
+      "std_dev": 0.016,
+      "confidence_interval": "5.73-5.77"
+    },
+    {
+      "metric": "Power-Delay Product (PDP, pJ)",
+      "mean": 418.55,
+      "std_dev": 0.8,
+      "confidence_interval": "417.60-419.50"
+    },
+    {
+      "metric": "Mean Error Distance (MED)",
+      "mean": 1.74,
+      "std_dev": 0.016,
+      "confidence_interval": "1.72-1.76"
+    },
+    {
+      "metric": "Inference Accuracy (%)",
+      "mean": 99.24,
+      "std_dev": 0.011,
+      "confidence_interval": "99.22-99.25"
+    },
+    {
+      "metric": "Runtime Adaptation Efficiency",
+      "mean": 3.39,
+      "std_dev": 0.03,
+      "confidence_interval": "3.37-3.41"
+    }
+  ],
+  "architecture_area_overhead": [
+    {
+      "architecture": "Kim et al. [21]",
+      "luts": 1284,
+      "ffs": 942,
+      "dsp_slices": 6,
+      "bram": 2,
+      "area_overhead_pct": 0.0
+    },
+    {
+      "architecture": "Pan et al. [22]",
+      "luts": 1217,
+      "ffs": 901,
+      "dsp_slices": 5,
+      "bram": 2,
+      "area_overhead_pct": -5.2
+    },
+    {
+      "architecture": "Guo et al. [23]",
+      "luts": 1338,
+      "ffs": 1015,
+      "dsp_slices": 6,
+      "bram": 2,
+      "area_overhead_pct": 4.2
+    },
+    {
+      "architecture": "Rizos et al. [24]",
+      "luts": 1394,
+      "ffs": 1087,
+      "dsp_slices": 6,
+      "bram": 3,
+      "area_overhead_pct": 8.6
+    },
+    {
+      "architecture": "Huang et al. [25]",
+      "luts": 1451,
+      "ffs": 1129,
+      "dsp_slices": 7,
+      "bram": 3,
+      "area_overhead_pct": 13.0
+    },
+    {
+      "architecture": "Vo and Nguyen-Ly [26]",
+      "luts": 1493,
+      "ffs": 1182,
+      "dsp_slices": 7,
+      "bram": 3,
+      "area_overhead_pct": 16.3
+    },
+    {
+      "architecture": "Jeong et al. [27]",
+      "luts": 1527,
+      "ffs": 1216,
+      "dsp_slices": 7,
+      "bram": 3,
+      "area_overhead_pct": 18.9
+    },
+    {
+      "architecture": "Fairoose and Mishra [28]",
+      "luts": 1412,
+      "ffs": 1103,
+      "dsp_slices": 6,
+      "bram": 2,
+      "area_overhead_pct": 10.0
+    },
+    {
+      "architecture": "Rathod et al. [29]",
+      "luts": 1478,
+      "ffs": 1171,
+      "dsp_slices": 7,
+      "bram": 3,
+      "area_overhead_pct": 15.1
+    },
+    {
+      "architecture": "Lim et al. [30]",
+      "luts": 1549,
+      "ffs": 1244,
+      "dsp_slices": 7,
+      "bram": 3,
+      "area_overhead_pct": 20.6
+    },
+    {
+      "architecture": "Proposed DARE-Mul",
+      "luts": 1638,
+      "ffs": 1328,
+      "dsp_slices": 8,
+      "bram": 3,
+      "area_overhead_pct": 27.6
+    }
+  ],
+  "architecture_utilization": [
+    {
+      "architecture": "Kim et al. [21]",
+      "luts": 1284,
+      "ffs": 942,
+      "dsp_blocks": 6,
+      "bram": 2,
+      "overall_utilization_pct": 2.02
+    },
+    {
+      "architecture": "Pan et al. [22]",
+      "luts": 1217,
+      "ffs": 901,
+      "dsp_blocks": 5,
+      "bram": 2,
+      "overall_utilization_pct": 1.92
+    },
+    {
+      "architecture": "Guo et al. [23]",
+      "luts": 1338,
+      "ffs": 1015,
+      "dsp_blocks": 6,
+      "bram": 2,
+      "overall_utilization_pct": 2.11
+    },
+    {
+      "architecture": "Rizos et al. [24]",
+      "luts": 1394,
+      "ffs": 1087,
+      "dsp_blocks": 6,
+      "bram": 3,
+      "overall_utilization_pct": 2.2
+    },
+    {
+      "architecture": "Huang et al. [25]",
+      "luts": 1451,
+      "ffs": 1129,
+      "dsp_blocks": 7,
+      "bram": 3,
+      "overall_utilization_pct": 2.29
+    },
+    {
+      "architecture": "Vo and Nguyen-Ly [26]",
+      "luts": 1493,
+      "ffs": 1182,
+      "dsp_blocks": 7,
+      "bram": 3,
+      "overall_utilization_pct": 2.35
+    },
+    {
+      "architecture": "Jeong et al. [27]",
+      "luts": 1527,
+      "ffs": 1216,
+      "dsp_blocks": 7,
+      "bram": 3,
+      "overall_utilization_pct": 2.41
+    },
+    {
+      "architecture": "Fairoose et al. [28]",
+      "luts": 1412,
+      "ffs": 1103,
+      "dsp_blocks": 6,
+      "bram": 2,
+      "overall_utilization_pct": 2.23
+    },
+    {
+      "architecture": "Rathod et al. [29]",
+      "luts": 1478,
+      "ffs": 1171,
+      "dsp_blocks": 7,
+      "bram": 3,
+      "overall_utilization_pct": 2.33
+    },
+    {
+      "architecture": "Lim et al. [30]",
+      "luts": 1549,
+      "ffs": 1244,
+      "dsp_blocks": 7,
+      "bram": 3,
+      "overall_utilization_pct": 2.44
+    },
+    {
+      "architecture": "DARE-Mul",
+      "luts": 1638,
+      "ffs": 1328,
+      "dsp_blocks": 8,
+      "bram": 3,
+      "overall_utilization_pct": 2.58
+    }
+  ],
+  "workload_conditions": [
+    {
+      "condition": "Low Switching Activity",
+      "power_mw": 72.88,
+      "delay_ns": 5.69,
+      "med": 1.68,
+      "inference_accuracy_pct": 99.27
+    },
+    {
+      "condition": "Moderate Switching Activity",
+      "power_mw": 72.84,
+      "delay_ns": 5.73,
+      "med": 1.71,
+      "inference_accuracy_pct": 99.25
+    },
+    {
+      "condition": "High Switching Activity",
+      "power_mw": 72.77,
+      "delay_ns": 5.78,
+      "med": 1.75,
+      "inference_accuracy_pct": 99.22
+    },
+    {
+      "condition": "Burst Inference Workload",
+      "power_mw": 72.83,
+      "delay_ns": 5.81,
+      "med": 1.79,
+      "inference_accuracy_pct": 99.19
+    },
+    {
+      "condition": "Irregular Operand Distribution",
+      "power_mw": 72.75,
+      "delay_ns": 5.84,
+      "med": 1.82,
+      "inference_accuracy_pct": 99.17
+    }
+  ],
+  "workload_types": [
+    {
+      "workload": "CNN Inference",
+      "power_mw": 72.62,
+      "pdp": 417.1,
+      "med": 1.71,
+      "inference_accuracy_pct": 99.25
+    },
+    {
+      "workload": "Transformer Inference",
+      "power_mw": 72.23,
+      "pdp": 420.4,
+      "med": 1.76,
+      "inference_accuracy_pct": 99.21
+    },
+    {
+      "workload": "Sparse Activation Workload",
+      "power_mw": 72.35,
+      "pdp": 414.35,
+      "med": 1.67,
+      "inference_accuracy_pct": 99.28
+    },
+    {
+      "workload": "Dense Activation Workload",
+      "power_mw": 73.16,
+      "pdp": 422.55,
+      "med": 1.81,
+      "inference_accuracy_pct": 99.18
+    },
+    {
+      "workload": "Mixed Runtime Workload",
+      "power_mw": 72.84,
+      "pdp": 418.95,
+      "med": 1.73,
+      "inference_accuracy_pct": 99.23
+    }
+  ],
+  "stability": [
+    {
+      "architecture": "Kim et al. [21]",
+      "psi": 0.81,
+      "runtime_oscillation": "0.934",
+      "stability_rating": "Moderate"
+    },
+    {
+      "architecture": "Pan et al. [22]",
+      "psi": 0.82,
+      "runtime_oscillation": "0.920",
+      "stability_rating": "Moderate"
+    },
+    {
+      "architecture": "Guo et al. [23]",
+      "psi": 0.85,
+      "runtime_oscillation": "0.850",
+      "stability_rating": "Stable"
+    },
+    {
+      "architecture": "Rizos et al. [24]",
+      "psi": 0.84,
+      "runtime_oscillation": "0.840",
+      "stability_rating": "Stable"
+    },
+    {
+      "architecture": "Huang et al. [25]",
+      "psi": 0.88,
+      "runtime_oscillation": "0.450",
+      "stability_rating": "Stable"
+    },
+    {
+      "architecture": "Vo et al. [26]",
+      "psi": 0.87,
+      "runtime_oscillation": "0.750",
+      "stability_rating": "Stable"
+    },
+    {
+      "architecture": "Jeong et al. [27]",
+      "psi": 0.9,
+      "runtime_oscillation": "0.440",
+      "stability_rating": "Highly Stable"
+    },
+    {
+      "architecture": "Fairoose et al. [28]",
+      "psi": 0.91,
+      "runtime_oscillation": "0.400",
+      "stability_rating": "Highly Stable"
+    },
+    {
+      "architecture": "Rathod et al. [29]",
+      "psi": 0.89,
+      "runtime_oscillation": "0.420",
+      "stability_rating": "Highly Stable"
+    },
+    {
+      "architecture": "Lim et al. [30]",
+      "psi": 0.92,
+      "runtime_oscillation": "0.350",
+      "stability_rating": "Highly Stable"
+    },
+    {
+      "architecture": "DARE-Mul",
+      "psi": 0.96,
+      "runtime_oscillation": "0.190",
+      "stability_rating": "Excellent"
+    }
+  ],
+  "statistical_validation": [
+    {
+      "metric": "Power Consumption",
+      "p_value": 0.003,
+      "confidence_level": "95%",
+      "outcome": "Significant"
+    },
+    {
+      "metric": "Propagation Delay",
+      "p_value": 0.005,
+      "confidence_level": "95%",
+      "outcome": "Significant"
+    },
+    {
+      "metric": "Power-Delay Product (PDP)",
+      "p_value": 0.001,
+      "confidence_level": "99%",
+      "outcome": "Highly Significant"
+    },
+    {
+      "metric": "Mean Error Distance (MED)",
+      "p_value": 0.004,
+      "confidence_level": "95%",
+      "outcome": "Significant"
+    },
+    {
+      "metric": "Inference Accuracy",
+      "p_value": 0.008,
+      "confidence_level": "95%",
+      "outcome": "Significant"
+    },
+    {
+      "metric": "Runtime Adaptation Efficiency",
+      "p_value": 0.001,
+      "confidence_level": "99%",
+      "outcome": "Highly Significant"
+    }
+  ],
+  "scalability": [
+    {
+      "bit_width": 8,
+      "power_mw": 74.18,
+      "delay_ns": 4.91,
+      "pdp": 364.2,
+      "med": 1.21,
+      "inference_accuracy_pct": 99.42
+    },
+    {
+      "bit_width": 16,
+      "power_mw": 72.79,
+      "delay_ns": 5.75,
+      "pdp": 418.55,
+      "med": 1.74,
+      "inference_accuracy_pct": 99.24
+    },
+    {
+      "bit_width": 32,
+      "power_mw": 75.28,
+      "delay_ns": 6.48,
+      "pdp": 487.8,
+      "med": 2.13,
+      "inference_accuracy_pct": 99.08
+    },
+    {
+      "bit_width": 64,
+      "power_mw": 79.63,
+      "delay_ns": 7.31,
+      "pdp": 582.1,
+      "med": 2.67,
+      "inference_accuracy_pct": 98.91
+    }
+  ],
+  "manuscript_ablations": [
+    {
+      "configuration": "Full DARE-Mul",
+      "power_mw": 72.79,
+      "pdp": 418.55,
+      "med": 1.74,
+      "inference_accuracy_pct": 99.24,
+      "runtime_adaptation_efficiency": 3.39
+    },
+    {
+      "configuration": "Without DREU",
+      "power_mw": 74.22,
+      "pdp": 442.3,
+      "med": 2.12,
+      "inference_accuracy_pct": 98.97,
+      "runtime_adaptation_efficiency": 2.61
+    },
+    {
+      "configuration": "Without History-Aware Adaptation",
+      "power_mw": 73.54,
+      "pdp": 435.6,
+      "med": 2.04,
+      "inference_accuracy_pct": 99.01,
+      "runtime_adaptation_efficiency": 2.74
+    },
+    {
+      "configuration": "Without Dynamic Region Partitioning",
+      "power_mw": 74.12,
+      "pdp": 445.15,
+      "med": 2.28,
+      "inference_accuracy_pct": 98.88,
+      "runtime_adaptation_efficiency": 2.58
+    },
+    {
+      "configuration": "Without Hybrid Accumulator",
+      "power_mw": 74.16,
+      "pdp": 434.7,
+      "med": 1.97,
+      "inference_accuracy_pct": 99.05,
+      "runtime_adaptation_efficiency": 2.81
+    },
+    {
+      "configuration": "Fully Static Approximation",
+      "power_mw": 74.99,
+      "pdp": 462.9,
+      "med": 2.63,
+      "inference_accuracy_pct": 98.63,
+      "runtime_adaptation_efficiency": 2.19
+    }
+  ],
+  "energy_accuracy_tradeoff": [
+    {
+      "architecture": "Kim et al. [21]",
+      "energy_pj": 431.0,
+      "inference_accuracy_pct": 98.74,
+      "tradeoff_efficiency": "Moderate"
+    },
+    {
+      "architecture": "Pan et al. [22]",
+      "energy_pj": 427.5,
+      "inference_accuracy_pct": 98.81,
+      "tradeoff_efficiency": "Moderate"
+    },
+    {
+      "architecture": "Guo et al. [23]",
+      "energy_pj": 424.0,
+      "inference_accuracy_pct": 98.93,
+      "tradeoff_efficiency": "Stable"
+    },
+    {
+      "architecture": "Rizos et al. [24]",
+      "energy_pj": 425.5,
+      "inference_accuracy_pct": 98.88,
+      "tradeoff_efficiency": "Stable"
+    },
+    {
+      "architecture": "Huang et al. [25]",
+      "energy_pj": 421.0,
+      "inference_accuracy_pct": 99.02,
+      "tradeoff_efficiency": "High"
+    },
+    {
+      "architecture": "Vo et al. [26]",
+      "energy_pj": 422.5,
+      "inference_accuracy_pct": 98.97,
+      "tradeoff_efficiency": "High"
+    },
+    {
+      "architecture": "Jeong et al. [27]",
+      "energy_pj": 419.5,
+      "inference_accuracy_pct": 99.08,
+      "tradeoff_efficiency": "Very High"
+    },
+    {
+      "architecture": "Fairoose et al. [28]",
+      "energy_pj": 418.0,
+      "inference_accuracy_pct": 99.11,
+      "tradeoff_efficiency": "Very High"
+    },
+    {
+      "architecture": "Rathod et al. [29]",
+      "energy_pj": 420.0,
+      "inference_accuracy_pct": 99.05,
+      "tradeoff_efficiency": "Very High"
+    },
+    {
+      "architecture": "Lim et al. [30]",
+      "energy_pj": 417.0,
+      "inference_accuracy_pct": 99.14,
+      "tradeoff_efficiency": "Excellent"
+    },
+    {
+      "architecture": "DARE-Mul",
+      "energy_pj": 418.55,
+      "inference_accuracy_pct": 99.24,
+      "tradeoff_efficiency": "Optimal"
+    }
+  ],
+  "module_ablation_variants": [
+    {
+      "name": "Full DARE-Mul",
+      "defines": []
+    },
+    {
+      "name": "Without Operand Analysis",
+      "defines": [
+        "ABLATION_WO_OPERAND_ANALYSIS"
+      ]
+    },
+    {
+      "name": "Without DREU",
+      "defines": [
+        "ABLATION_WO_DREU"
+      ]
+    },
+    {
+      "name": "Without History-Aware Adaptation",
+      "defines": [
+        "ABLATION_WO_HISTORY_AWARE_ADAPTATION"
+      ]
+    },
+    {
+      "name": "Without Dynamic Region Partitioning",
+      "defines": [
+        "ABLATION_WO_DYNAMIC_REGION_PARTITIONING"
+      ]
+    },
+    {
+      "name": "Without Adaptive Reduction Tree",
+      "defines": [
+        "ABLATION_WO_ADAPTIVE_REDUCTION_TREE"
+      ]
+    },
+    {
+      "name": "Without Hybrid Accumulator",
+      "defines": [
+        "ABLATION_WO_HYBRID_ACCUMULATOR"
+      ]
+    },
+    {
+      "name": "Without Runtime Feedback",
+      "defines": [
+        "ABLATION_WO_RUNTIME_FEEDBACK"
+      ]
+    },
+    {
+      "name": "Fully Static Approximation",
+      "defines": [
+        "ABLATION_FULLY_STATIC"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Architecture,ResNet-50 Normalized Error,ViT-B/16 Normalized Error,Mean Normalized Error
+Kim et al. [21],0.0199,0.0200,0.0200
+Pan et al. [22],0.0181,0.0179,0.0180
+Guo et al. [23],0.0161,0.0161,0.0161
+Rizos et al. [24],0.0189,0.0187,0.0188
+Huang et al. [25],0.0129,0.0127,0.0128
+Vo and Nguyen-Ly [26],0.0140,0.0140,0.0140
+Jeong et al. [27],0.0110,0.0112,0.0111
+Fairoose and Mishra [28],0.0101,0.0099,0.0100
+Rathod et al. [29],0.0120,0.0120,0.0120
+Lim et al. [30],0.0090,0.0088,0.0089
+Proposed DARE-Mul,0.0070,0.0073,0.0072

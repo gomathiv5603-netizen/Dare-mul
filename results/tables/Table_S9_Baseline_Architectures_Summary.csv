@@ -1,0 +1,12 @@
+Ref.,Architecture,Main Technique,Primary Limitation
+[21],Iterative Logarithmic Multiplier,Logarithmic approximation,Static precision allocation
+[22],PTL-Based Multiplier,Circuit-level optimization,No adaptation
+[23],Hybrid-Radix Booth Multiplier,FPGA Booth approximation,Fixed approximation regions
+[24],Approximate Wallace Multiplier,Wallace-tree approximation,No temporal adaptation
+[25],MSAM Multiplier,Significance-aware arithmetic,Fixed significance partitioning
+[26],Sparsity-Aware Multiplier,Sparse DNN optimization,Static behavior
+[27],SEAM Multiplier,CNN-oriented approximation,Static arithmetic evolution
+[28],Compressor-Based Multiplier,Approximate 4:2 compressors,Fixed reduction behavior
+[29],Edge-AI Compressor Multiplier,Switching-aware approximation,No adaptive carry control
+[30],DCAA Architecture,Hybrid carry-aware accumulation,No region evolution
+Proposed,DARE-Mul,Adaptive region evolution,"DREU overhead (18.7% LUTs, 4.2% power); gain under variation"

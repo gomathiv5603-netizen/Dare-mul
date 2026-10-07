@@ -1,0 +1,11 @@
+Year / Architecture,Technology / Platform,Precision,Published Metric (Result)
+2025 -- ARCWM (Rizos et al. [24]),ASIC / Synopsys Genus,8/16/32-bit,Max area reduction: 66.3% (8x8)
+2025 -- ARCWM (Rizos et al. [24]),ASIC / Synopsys Genus,16-bit,Max power reduction: 70.7%
+2025 -- SEAM (Jeong et al. [27]),GPDK 32 nm,Multiplier,Area reduction: 80.46%
+2025 -- SEAM (Jeong et al. [27]),GPDK 32 nm,Multiplier,Power reduction: 82.6%
+2026 -- FPGA Approximate Booth (Guo et al. [23]),FPGA,16-bit,PDP reduction: 38.31%
+2026 -- FPGA Approximate Booth (Guo et al. [23]),FPGA,16-bit,LUT reduction: 35.66%
+2026 -- ECRS Multiplier (Wang et al. [17])*,TSMC 28 nm,8-bit,Area reduction: 58.61%
+2026 -- ECRS Multiplier (Wang et al. [17])*,TSMC 28 nm,8-bit,Power reduction: 65.35%
+2026 -- ECRS Multiplier (Wang et al. [17])*,TSMC 28 nm,8-bit,Delay reduction: 41.77%
+2026 -- FP8ApproxLib [34]*,FPGA,FP8,Error reduction: 53.15% (average)

@@ -1,0 +1,5 @@
+Configuration,PDP Improvement (%),MED Reduction (%),Boundary Oscillation Ω,Task Accuracy (%)
+Static Approximation,Baseline,Baseline,0.92,91.24
+Threshold-Based Adaptation,8.7,11.3,0.74,92.01
+Moving-Average Adaptation,13.5,18.6,0.48,92.74
+Proposed DARE-Mul,21.8,29.4,0.19,93.68

@@ -1,0 +1,13 @@
+Parameter,Symbol,Value,Role
+Initial exact boundary,BE(0),12,Reset value of exact-region boundary
+Initial approximate boundary,BA(0),4,Reset value; initial intermediate width of 8 columns
+Exact-boundary legal range,"[BE_min, BE_max]","[8, 15]","Clipping limits, Eq. (22)"
+Approximate-boundary legal range,"[BA_min, BA_max]","[0, 7]","Clipping limits, Eq. (23)"
+Minimum intermediate width,dmin,2,"Minimum-separation rule, Algorithm 1 step 10"
+Importance threshold,Ith,0.55,Reference level in Eqs. (18) and (20)
+Smoothing coefficient,α,0.6,"Exponential smoothing, Eq. (11)"
+Adaptation sensitivities,λE / λA,0.3 / 0.4,Eqs. (18) and (20)
+Damping coefficient,η,0.4,Eqs. (26) and (27)
+Significance weights,wm / wa / wh,0.5 / 0.3 / 0.2,Eq. (12); sum equals 1
+Maximum step per interval,max|ΔBE| / max|ΔBA|,0.066 / 0.088,"ηλ·max(Ith, 1 - Ith) before clipping"
+Boundary-register format,"BE, BA",Fixed-point with fractional bits,Integer part compared with Sij = i + j

@@ -1,0 +1,5 @@
+Component,LUTs,FFs,Longest path (ns)
+Temporal workload buffer & smoothing,142,98,0.9
+Workload significance estimator,89,67,1.2
+Precision migration controller,76,52,1.8
+Total DREU,307,217,1.8

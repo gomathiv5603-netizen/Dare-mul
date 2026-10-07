@@ -1,0 +1,6 @@
+Design,Retained state across intervals,Bounded precision step,Online update without software,"Joint control of PPG, reduction, and accumulation"
+MSAM [25],No,No,Per operation only (leading-one),No
+SEAM [27],No,No,Per operation only (dynamic-range),No
+ECRS [17],No,No,No (configuration fixed at design time),No (all statically)
+"Configurable MAC, EAMCA [6]",No,No,"Yes (per layer, from instantaneous energy)",No (multiplier only; exact accum)
+DARE-Mul (This work),Yes (history register Ĥ),"Yes (≤ ηλ per interval, clipped)",Yes (every interval),Yes (one region code)

@@ -1,0 +1,6 @@
+Workload Type,Power (mW),PDP (pJ),MED,Task Accuracy (%)
+CNN Inference,72.62,417.10,1.71,99.25
+Transformer Inference,72.23,420.40,1.76,99.21
+Sparse Activation Workload,72.35,414.35,1.67,99.28
+Dense Activation Workload,73.16,422.55,1.81,99.18
+Mixed Workload,72.84,418.95,1.73,99.23

@@ -1,0 +1,5 @@
+Region Configuration,Regions,LUT,FF,Power (mW),Delay (ns),PDP (pJ),MED,NMED,RRMSE,Task Accuracy (%),Ω
+Exact + Approx.,2,1480,1190,72.50,5.60,406.0,2.10,0.0082,0.0086,98.95,0.35
+Exact + Intermediate + Approx. (DARE-Mul),3,1638,1328,72.79,5.75,418.55,1.74,0.0068,0.0071,99.24,0.19
+4-region,4,1790,1450,73.06,5.92,432.5,1.65,0.0064,0.0067,99.28,0.16
+5-region,5,1935,1570,73.61,6.10,449.0,1.60,0.0062,0.0065,99.30,0.14

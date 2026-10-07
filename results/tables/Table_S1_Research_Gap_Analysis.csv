@@ -1,0 +1,12 @@
+Ref.,Architecture Category,Major Contribution,Fundamental Limitation,What this design adds
+Kim et al. [21],Logarithmic approximate multiplier,Iterative logarithmic approximation with configurable accuracy,Static precision allocation,Adds retained workload history and bounded boundary step
+Pan et al. [22],PTL-based multiplier,Low-power and area-efficient multiplier optimization,No arithmetic adaptation,Adds retained workload state and bounded region migration
+Guo et al. [23],FPGA approximate Booth multiplier,Hybrid-radix FPGA-oriented Booth multiplication,Fixed approximation regions,Adds retained-state boundary migration around fixed datapath
+Rizos et al. [24],Approximate Wallace multiplier,GA-optimized Wallace multiplier approximation,No precision evolution,Adds retained workload history and bounded precision migration
+Huang et al. [25],MSB-guided multiplier,Significance-aware neural-network acceleration,No temporal workload awareness,Adds retained history register and bounded step
+Vo and Nguyen-Ly [26],Sparsity-aware DNN multiplier,FPGA-oriented DNN multiplier optimization,Fixed significance allocation,Adds retained-state region migration to fixed datapath
+Jeong et al. [27],SEAM approximate multiplier,CNN-oriented energy-efficient multiplication,Static arithmetic evolution,Adds feedback from workload history and bounded region migration
+Fairoose and Mishra [28],Compressor-based multiplier,High-speed approximate compressor architecture,Static approximation behavior,Adds retained workload state and bounded region selection
+Rathod et al. [29],Approximate compressor multiplier,Power-efficient edge-AI arithmetic,No adaptive carry evolution,Adds retained-state precision control around compressor datapath
+Lim et al. [30],Hybrid approximate adder,Error-reduction carry-aware accumulation,No region adaptation,"Adds retained-state boundary control across PPG, reduction, accumulation"
+Proposed DARE-Mul,Adaptive approximate multiplier,Dynamic region evolution with history-aware precision adaptation,"Adds DREU cost (18.7% LUTs, 4.2% power); benefit under variation","Joint retained-state boundary migration and one region code across PPG, reduction, accumulation"

@@ -1,0 +1,5 @@
+System Configuration,Avg. Power (mW),Energy per Inference E=P×t (µJ),Keyword Accuracy (%),False-Accept Rate,Latency (ms)
+Baseline exact 16-bit,48.2,597.7,96.8,0.8%,12.4
+Static approximate (best prior),36.7,400.0,95.1,1.4%,10.9
+DARE-Mul (history-aware),31.4,348.5,96.2,0.9%,11.1
+DARE-Mul + low-activity bypass,27.9,315.3,96.1,0.9%,11.3

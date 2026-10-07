@@ -1,0 +1,4 @@
+Approximation Strategy,MED Variation (%),PDP Improvement (%),Boundary Oscillation Ω,Task-Accuracy Fluctuation (%)
+Static Approximation,31.8,Baseline,0.93,4.74
+Threshold-Based Adaptation,22.5,11.2,0.71,3.08
+Proposed DARE-Mul,9.7,23.4,0.18,1.12

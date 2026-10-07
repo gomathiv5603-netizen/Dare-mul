@@ -1,0 +1,5 @@
+Metric,Exact Baseline,Static Approx,DARE-Mul,Relative to Exact
+Trajectory ATE (m),0.42,0.61,0.47,+11.9%
+End-to-end energy per 100 m (J),18.7,13.9,12.1,-35.3%
+Control-loop latency (ms),28.4,24.1,24.8,-12.7%
+Collision rate (100 runs),2%,7%,3%,—

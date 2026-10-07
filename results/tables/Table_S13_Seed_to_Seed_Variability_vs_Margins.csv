@@ -1,0 +1,6 @@
+Metric,Coefficient of Variation (%),95% CI Half-Width (% of mean),Margin to Best Baseline (Lim et al. [30]),Interpretation
+Power,0.18,0.23,-0.37% (baseline lower),Baseline lower beyond variability
+Propagation Delay,0.27,0.34,+0.52%,Exceeds variability
+PDP / Energy,0.45,0.56,+0.37% (baseline lower),Within variability band; no superiority claim
+MED / NMED,0.91,1.13,+21.8% (NMED),Exceeds variability
+Task Accuracy,0.011,0.014,+0.10 pp,Exceeds variability

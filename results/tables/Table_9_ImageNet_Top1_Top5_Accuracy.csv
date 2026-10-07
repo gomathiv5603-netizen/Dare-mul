@@ -1,0 +1,7 @@
+Model,Precision,Top-1 Acc (%),Top-5 Acc (%),Δ Top-1 (pp),Δ Top-5 (pp),Δ Top-1 rel.,Classification Disagreement
+"ResNet-50, exact FP32 reference",FP32,76.13,92.86,—,—,—,—
+"ResNet-50, exact quantized multiplier",INT8/INT32,76.02,92.81,—,—,—,—
+ResNet-50 + DARE-Mul,INT8/INT32,75.94,92.76,-0.08,-0.05,-0.105%,1.8%
+"ViT-B/16, exact FP32 reference",FP32,81.07,95.32,—,—,—,—
+"ViT-B/16, exact quantized multiplier",INT8/INT32,80.85,95.20,—,—,—,—
+ViT-B/16 + DARE-Mul,INT8/INT32,80.62,95.06,-0.23,-0.14,-0.284%,3.1%

@@ -1,0 +1,7 @@
+Configuration,Power (mW),PDP (pJ),MED,Task Accuracy (%),Adaptation Efficiency
+Full DARE-Mul,72.79,418.55,1.74,99.24,3.39
+Without DREU,74.22,442.30,2.12,98.97,2.61
+Without History-Aware Adaptation,73.54,435.60,2.04,99.01,2.74
+Without Dynamic Region Partitioning,74.12,445.15,2.28,98.88,2.58
+Without Hybrid Accumulator,74.16,434.70,1.97,99.05,2.81
+Fully Static Approximation,74.99,462.90,2.63,98.63,2.19

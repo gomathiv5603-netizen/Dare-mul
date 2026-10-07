@@ -1,0 +1,7 @@
+Network / Dataset,Method,Top-1 Accuracy (%),PDP (pJ)†,MED,Accuracy Drop vs Exact
+ResNet-18 / CIFAR-10,Exact,94.82,612†,0,—
+ResNet-18 / CIFAR-10,Post-training DARE-Mul,93.91,481†,1.74,-0.91 pp
+ResNet-18 / CIFAR-10,Training-aware DARE-Mul,94.47,478†,1.51,-0.35 pp
+MobileNetV2 / ImageNet-100,Exact,78.35,589†,0,—
+MobileNetV2 / ImageNet-100,Post-training DARE-Mul,76.92,465†,1.89,-1.43 pp
+MobileNetV2 / ImageNet-100,Training-aware DARE-Mul,77.81,461†,1.62,-0.54 pp

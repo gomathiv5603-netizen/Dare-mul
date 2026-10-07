@@ -1,0 +1,4 @@
+Parameter,Tested Range,Selected Value,PDP Variation (%),MED Variation (%),Boundary Oscillation Ω,Accuracy Variation (%),Lowest-objective retained point (Table S28)
+Smoothing Coefficient α,0.2 - 0.8,0.6,±3.1,±4.4,±0.07,±0.42,0.69
+Adaptation Sensitivity λ,0.1 - 0.5,0.3,±2.8,±3.9,±0.05,±0.37,0.37
+Approximation Aggressiveness η,0.1 - 0.6,0.4,±3.5,±5.1,±0.08,±0.51,0.29

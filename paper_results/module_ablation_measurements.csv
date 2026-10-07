@@ -1,0 +1,10 @@
+configuration,defines,measured_mean_error
+Full DARE-Mul,,2.47
+Without Operand Analysis,ABLATION_WO_OPERAND_ANALYSIS,2.47
+Without DREU,ABLATION_WO_DREU,1.07
+Without History-Aware Adaptation,ABLATION_WO_HISTORY_AWARE_ADAPTATION,2.47
+Without Dynamic Region Partitioning,ABLATION_WO_DYNAMIC_REGION_PARTITIONING,1.07
+Without Adaptive Reduction Tree,ABLATION_WO_ADAPTIVE_REDUCTION_TREE,2.47
+Without Hybrid Accumulator,ABLATION_WO_HYBRID_ACCUMULATOR,2.47
+Without Runtime Feedback,ABLATION_WO_RUNTIME_FEEDBACK,2.47
+Fully Static Approximation,ABLATION_FULLY_STATIC,1.07

@@ -1,0 +1,6 @@
+Workload Condition,Power (mW),Delay (ns),MED,Task Accuracy (%)
+Low Switching Activity,72.88,5.69,1.68,99.27
+Moderate Switching Activity,72.84,5.73,1.71,99.25
+High Switching Activity,72.77,5.78,1.75,99.22
+Burst Inference Workload,72.83,5.81,1.79,99.19
+Irregular Operand Distribution,72.75,5.84,1.82,99.17

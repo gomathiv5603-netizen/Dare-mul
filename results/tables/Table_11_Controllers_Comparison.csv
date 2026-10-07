@@ -1,0 +1,4 @@
+Controller,State,Action,Reward,Episodes,Controller Latency (ns),LUT,Power (mW),Task Accuracy (%),Ω
+Deterministic DREU (DARE-Mul),"Significance, activity, history",Boundary update,PDP reduction,—,1.8,1638,72.79,99.24%,0.19
+Online Learning,"Significance, activity, history",Boundary + learning-rate update,PDP − MED,"1,000",2.1,2100,92.40,99.30%,0.15
+Reinforcement Learning (DQN),Full workload,Discrete boundary,Accuracy − energy,"10,000",3.81,3200,105.54,99.35%,0.12
